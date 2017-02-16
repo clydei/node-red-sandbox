@@ -1,0 +1,19 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: twitrump
+  host: twitrump
+  disk_quota: 1024M
+  services:
+  - AlchemyAPI-gt
+  - twitrump-cloudantNoSQLDB
+  - Tone Analyzer-pb
+  - Twilio-v4
+  - Twilio-5a
+  - Discovery-12
+  - Language Translator-5r
+  env:
+    NODE_RED_USERNAME: cicuspit
+    NODE_RED_PASSWORD: am3l1a
