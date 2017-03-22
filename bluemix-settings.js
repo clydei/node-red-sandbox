@@ -50,7 +50,7 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: {
-         wpModule:require('wordpress-rest-api')
+         wpModule: require("wordpress-rest-api")
     },
 
     storageModule: require("./couchstorage")
