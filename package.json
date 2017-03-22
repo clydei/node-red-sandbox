@@ -22,7 +22,7 @@
         "node-red-contrib-media-utils":"0.x", 
         "node-red-contrib-play-audio": "2.0.x", 
         "node-red-dashboard": "2.0.x",
-        "wordpress-rest-api": "0.x"
+        "node-red-contrib-npm": "0.x"
     },
     "scripts": {
         "start": "node --max-old-space-size=384 node_modules/node-red/red.js --settings ./bluemix-settings.js -v"
